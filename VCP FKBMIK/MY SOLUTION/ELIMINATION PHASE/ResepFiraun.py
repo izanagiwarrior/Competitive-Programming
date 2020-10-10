@@ -1,0 +1,6 @@
+n = input().split()
+A = int(n[0])
+B = int(n[1])
+C = int(n[2])
+D = int(n[3])
+print((((A**B)**C)**D)%101) 
